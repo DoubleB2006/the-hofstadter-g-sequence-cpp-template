@@ -1,5 +1,5 @@
 #include <iostream>
-#include "hofstadter.hpp"
+#include "src/factorial.hpp"
 
 int main() {
     std::cout << "Hofstadter G sequence (naive):" << std::endl;

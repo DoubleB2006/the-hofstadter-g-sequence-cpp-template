@@ -3,7 +3,7 @@
 #include <catch2/benchmark/catch_constructor.hpp>
 #include <catch2/generators/catch_generators_range.hpp>
 
-#include "../src/hofstadter.hpp"   // contains G_naive and G_memo
+#include "../src/factorial.hpp"   // contains G_naive and G_memo
 
 TEST_CASE( "G_naive computes small Hofstadter G values correctly" ) {
     REQUIRE( G_naive(0) == 0 );

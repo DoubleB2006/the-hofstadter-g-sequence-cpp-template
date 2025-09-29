@@ -1,4 +1,4 @@
-#include "hofstadter.hpp"
+#include "factorial.hpp"
 #include <stdexcept>
 
 // ---------- Naive recursive version ----------
